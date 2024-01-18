@@ -62,11 +62,15 @@ export default function LoginForm() {
           </div>
         </div>
         <LoginButton />
-        <code className="flex flex-col items-start justify-start">
-          <span>Try</span>
-          <span>Email: user@nextmail.com</span>
-          <span>Password: 123456</span>
-        </code>
+        <div className="mt-5 flex flex-col items-start justify-start">
+          <p>Try</p>
+          <p>
+            Email: <code>user@nextmail.com</code>
+          </p>
+          <p>
+            Password: <code>123456</code>
+          </p>
+        </div>
         <div className="flex h-8 items-end space-x-1">
           {/* Add form errors here */}
           <div
